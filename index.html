@@ -1,10 +1,111 @@
 <!DOCTYPE html>
-<html>
+<link rel="stylesheet" href="style.css" />
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Resume</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 <body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <img src="images/profile_pic.jpg" alt="Profile Picture" class="profile-pic" />
+      <h1>Your Name</h1>
+      <p>City, Country • email@example.com • (123) 456-7890</p>
+    </header>
 
-<h1>My First Heading</h1>
+    <!-- Download PDF + Social Icons -->
+    <div class="download-section">
+      <div class="social-icons">
+        <a href="https://linkedin.com/in/wzhangc1" target="_blank" title="LinkedIn">
+          <img src="images/linkedin.svg" alt="LinkedIn" class="social-icon">
+        </a>
+        <a href="https://scholar.google.com/citations?user=XXXXXX" target="_blank" title="Google Scholar">
+          <img src="images/google-scholar.svg" alt="Google Scholar" class="social-icon">
+        </a>
+        <a href="https://github.com/wzhangc1" target="_blank" title="GitHub">
+          <img src="images/github.svg" alt="GitHub" class="social-icon">
+        </a>
+        <a href="https://wzhangc1.github.io" target="_blank" title="Website">
+          <img src="images/website.svg" alt="Website" class="social-icon">
+        </a>
+      </div>
+      <a href="resume.pdf" download class="download-btn">Download PDF</a>
+    </div>
 
-<p>My first paragraph.</p>
+    <!-- Contact -->
+    <div class="section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:wzhangc1@binghamton.edu">wzhangc1@binghamton.edu</a> | Phone: (607) 232-0408</p>
+      <p><a href="https://wzhangc1.github.io" target="_blank">Personal Website</a> | <a href="https://linkedin.com/in/wzhangc1" target="_blank">LinkedIn</a></p>
+    </div>
 
+    <!-- Education -->
+    <div class="section">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>PhD in Computer Science</strong> – Binghamton University (Present)</li>
+        <li><strong>MS in Computer Science</strong> – Binghamton University (Dec 2022)</li>
+        <li><strong>BS in Computer Science</strong> – Binghamton University (May 2020)</li>
+        <li><strong>AS in Computer Science</strong> – SUNY Broome (May 2018)</li>
+      </ul>
+    </div>
+
+    <!-- Research Interests -->
+    <div class="section">
+      <h2>Research Interests</h2>
+      <p>Compilers, Hardware Security, Program Augmentation, Program Verification, Side Channels</p>
+    </div>
+
+    <!-- Publications -->
+    <div class="section">
+      <h2>Publications</h2>
+      <ul>
+        <li><strong>USENIX Security 2025:</strong> "Secure Caches for Compartmentalized Software" — <em>Academic citation + summary coming soon</em></li>
+        <li><strong>NDSS 2024:</strong> "TEE-SHirT: Scalable Leakage-Free Cache Hierarchies for TEEs" — <em>Academic citation + summary coming soon</em></li>
+      </ul>
+    </div>
+
+    <!-- Experience -->
+    <div class="section">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Research Assistant</strong> – Binghamton University (Jan 2022–Present)<br />Computer security & side-channel research. Ran experiments, benchmarks, and analysis.</li>
+        <li><strong>Teaching Assistant</strong> – Binghamton University (Jan 2021–May 2023)<br />Taught lab sessions for 40 students, graded, and held office hours for computer architecture.</li>
+        <li><strong>Computer Science Tutor</strong> – SUNY Broome (Jan 2017–May 2018)<br />Tutored CS students in lab environment and supported introductory CS topics.</li>
+        <li><strong>Spanish Tutor</strong> – SUNY Broome (Jan 2017–May 2018)<br />Helped students develop Spanish fluency in writing and speaking.</li>
+      </ul>
+    </div>
+
+    <!-- Skills -->
+    <div class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>C</span><span>C++</span><span>CUDA</span><span>LLVM</span><span>perf</span><span>Python</span>
+        <span>Arduino</span><span>C#</span><span>CSS</span><span>Git</span><span>Haskell</span><span>HTML</span>
+        <span>Java</span><span>JavaScript</span><span>Prolog</span><span>R</span><span>Raspberry Pi</span><span>Rust</span><span>SQL</span>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="section">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Microelectronics Security Education</strong> (Present)<br />Created hands-on learning content for students; built website & YouTube channel with tutorials.</li>
+        <li><strong>LLVM Transformation Passes on SPEC Benchmarks</strong> (2024)<br />Automated IR generation & compilation for C/C++; inserted custom instructions using LLVM passes.</li>
+        <li><strong>Olympic Rating System</strong> (2022)<br />Developed data-driven rating system; computed performance scores using statistical analysis on NoSQL DBs.</li>
+      </ul>
+    </div>
+
+    <!-- Coursework -->
+    <div class="section">
+      <h2>Coursework</h2>
+      <p>Algorithms, Architecture, Artificial Intelligence, Compiler Design, Computer Security, Database System, Hardware & Security Systems, Operating Systems, Programming Languages, Systems Programming</p>
+    </div>
+
+  </div>
 </body>
 </html>
