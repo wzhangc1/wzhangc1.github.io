@@ -13,8 +13,8 @@
     <header style="background:linear-gradient(135deg,#2c3e50,#3498db); color:white; padding:40px 20px; position:relative; text-align:center;">
       <img src="images/profile_pic.jpg" alt="Profile Picture" 
            style="width:130px; height:130px; border-radius:50%; object-fit:cover; border:4px solid white; box-shadow:0 4px 12px rgba(0,0,0,0.2); position:absolute; top:20px; left:20px;">
-      <h1 style="margin-top:80px; font-size:2.2rem; font-weight:700;">Your Name</h1>
-      <p style="font-size:1rem; opacity:0.9; margin-top:5px;">City, Country • email@example.com • (123) 456-7890</p>
+      <h1 style="margin-top:80px; font-size:2.2rem; font-weight:700;">Williams Zhang Cen</h1>
+      <p style="font-size:1rem; opacity:0.9; margin-top:5px;">wzhangc1@binghamton.edu • (607) 232-0408</p>
     </header>
 
     <!-- Download PDF + Social Icons -->
@@ -24,7 +24,7 @@
         <a href="https://linkedin.com/in/wzhangc1" target="_blank" title="LinkedIn" style="display:inline-block; width:28px; height:28px;">
           <img src="images/linkedin-svgrepo-com.svg" alt="LinkedIn" style="width:100%; height:100%; object-fit:contain; display:block;">
         </a>
-        <a href="https://scholar.google.com/citations?user=XXXXXX" target="_blank" title="Google Scholar" style="display:inline-block; width:28px; height:28px;">
+        <a href="https://scholar.google.com/citations?user=VP1kPS8AAAAJ" target="_blank" title="Google Scholar" style="display:inline-block; width:28px; height:28px;">
           <img src="images/google-scholar.svg" alt="Google Scholar" style="width:100%; height:100%; object-fit:contain; display:block;">
         </a>
         <a href="https://github.com/wzhangc1" target="_blank" title="GitHub" style="display:inline-block; width:28px; height:28px;">
@@ -38,14 +38,22 @@
 
     <!-- Sections -->
     <div style="padding:25px 30px; border-bottom:1px solid #eee;">
+        <h2 style="font-size:1.3rem; margin-bottom:10px; color:#2c3e50; border-left:4px solid #3498db; padding-left:10px;">About Me</h2>
+        <p>
+          I am a computer science researcher focused on compilers, hardware security, and side-channel analysis. 
+          I am passionate about exchanging learning a wide range of topics, including coding, athetics, and languages.
+          I also enjoy teaching and engaging with students, celebrating their learning and successes.
+        </p>
+      </div>
+    <!-- <div style="padding:25px 30px; border-bottom:1px solid #eee;">
       <h2 style="font-size:1.3rem; margin-bottom:10px; color:#2c3e50; border-left:4px solid #3498db; padding-left:10px;">Contact</h2>
       <p>Email: <a href="mailto:wzhangc1@binghamton.edu">wzhangc1@binghamton.edu</a> | Phone: (607) 232-0408</p>
       <p><a href="https://wzhangc1.github.io" target="_blank">Personal Website</a> | <a href="https://linkedin.com/in/wzhangc1" target="_blank">LinkedIn</a></p>
-    </div>
+    </div> -->
 
     <div style="padding:25px 30px; border-bottom:1px solid #eee;">
       <h2 style="font-size:1.3rem; margin-bottom:10px; color:#2c3e50; border-left:4px solid #3498db; padding-left:10px;">Education</h2>
-      <ul style="list-style:none; margin-left:10px;">
+      <ul style="list-style:none; margin-left:-20px;">
         <li><strong>PhD in Computer Science</strong> – Binghamton University (Present)</li>
         <li><strong>MS in Computer Science</strong> – Binghamton University (Dec 2022)</li>
         <li><strong>BS in Computer Science</strong> – Binghamton University (May 2020)</li>
@@ -59,16 +67,48 @@
     </div>
 
     <div style="padding:25px 30px; border-bottom:1px solid #eee;">
-      <h2 style="font-size:1.3rem; margin-bottom:10px; color:#2c3e50; border-left:4px solid #3498db; padding-left:10px;">Publications</h2>
-      <ul style="list-style:none; margin-left:10px;">
-        <li><strong>USENIX Security 2025:</strong> "Secure Caches for Compartmentalized Software" — <em>Academic citation + summary coming soon</em></li>
-        <li><strong>NDSS 2024:</strong> "TEE-SHirT: Scalable Leakage-Free Cache Hierarchies for TEEs" — <em>Academic citation + summary coming soon</em></li>
-      </ul>
+        <h2 style="font-size:1.3rem; margin-bottom:10px; color:#2c3e50; border-left:4px solid #3498db; padding-left:10px;">Current Research</h2>
+        <ul style="list-style:none; margin-left:-20px;">
+          <li><strong>Monitoring Isolated Programs Through Side Channels</strong></li>
+          <li><strong>Exploring New Covert Channel in NVIDIA Tensor Cores</strong></li>
+          <li><strong>Program Verification on FPGAs Using Ring Oscillators</strong></li>
+          <!-- <li><strong>Program Verification Using Side Channels</strong></li>
+          <li><strong>Program Verification Using Side Channels</strong></li> -->
+        </ul>
+      </div>
+
+
+    <!-- Publications (boxed with separate website links) -->
+    <div style="padding:25px 30px; border-bottom:1px solid #eee;">
+        <h2 style="font-size:1.3rem; margin-bottom:15px; color:#2c3e50; border-left:4px solid #3498db; padding-left:10px;">Publications</h2>
+    
+        <!-- Publication 1 -->
+        <div style="border:1px solid #ccc; border-radius:8px; background:#f9f9f9; padding:15px; margin-bottom:15px;">
+        <p style="font-size:1.1rem; font-weight:bold; margin-bottom:5px;">
+            Secure Caches for Compartmentalized Software
+            <a href="https://example.com/paper1" target="_blank" style="font-size:0.9rem; color:#3498db; text-decoration:none; margin-left:10px;">View</a>
+        </p>
+        <p><strong>Authors:</strong> Kerem Arıkan, Huaxin Tang, <strong>Williams Zhang-Cen</strong>, Yu David Liu, Nael Abu-Ghazaleh, and Dmitry Ponomarev</p>
+        <p><strong>Conference:</strong> USENIX Security 2025</p>
+        <p><strong>Abstract:</strong> Compartmentalized software systems have been recently proposed in response to security challenges with traditional process-level isolation mechanisms. Compartments provide logical isolation for mutually mistrusting software components, even within the same address space. However, they do not provide side-channel isolation, leaving them vulnerable to side-channel attacks. In this paper, we take on the problem of protecting compartmentalized software from hardware cache side-channel attacks. We consider unique challenges that compartmentalized software poses in terms of securing caches, which include performance implications, efficient and secure data sharing, and avoiding leakage when shared libraries are called by multiple callers. We propose SCC - a framework that addresses these challenges by 1) multi-level cache partitioning including L1 caches with a series of optimizations to avoid performance impact; 2) the concept of domain-oriented partitioning where cache partitions are created per memory domain, instead of per compartment; and 3) creating separate partition instance of a shared library code for each caller. We formally prove the security of SCC using operational semantics and evaluate its performance using the gem5 simulator on a set of compartmentalized benchmarks.</p>
+        </div>
+    
+        <!-- Publication 2 -->
+        <div style="border:1px solid #ccc; border-radius:8px; background:#f9f9f9; padding:15px; margin-bottom:15px;">
+        <p style="font-size:1.1rem; font-weight:bold; margin-bottom:5px;">
+            TEE-SHirT: Scalable Leakage-Free Cache Hierarchies for TEEs
+            <a href="https://example.com/paper2" target="_blank" style="font-size:0.9rem; color:#3498db; text-decoration:none; margin-left:10px;">View</a>
+        </p>
+        <p><strong>Authors:</strong> Kerem Arıkan, Abraham Farrell, <strong>Williams Zhang-Cen</strong>, Jack McMahon, Barry Williams, Yu David Liu, Nael Abu-Ghazaleh, and Dmitry Ponomarev</p>
+        <p><strong>Conference:</strong> NDSS 2024</p>
+        <p><strong>Abstract:</strong> Protection of cache hierarchies from side-channel attacks is critical for building secure systems, particularly the ones using Trusted Execution Environments (TEEs). In this paper, we consider the problem of efficient and secure fine-grained partitioning of cache hierarchies and propose a framework, called Secure Hierarchies for TEEs (TEE-SHirT). In the context of a three-level cache system, TEE-SHirT consists of partitioned shared last-level cache, partitioned private L2 caches, and non-partitioned L1 caches that are flushed on context switches and system calls. Efficient and correct partitioning requires careful design. Towards this goal, TEE-SHirT makes three contributions: 1) we demonstrate how the hardware structures used for holding cache partitioning metadata can be effectively virtualized to avoid flushing of cache partition content on context switches and system calls; 2) we show how to support multi-threaded enclaves in TEE-SHirT, addressing the issues of coherency and consistency that arise with both intra-core and inter-core data sharing; 3) we develop a formal security model for TEE-SHirT to rigorously reason about the security of our design.</p>
+        </div>
+    
     </div>
 
     <div style="padding:25px 30px; border-bottom:1px solid #eee;">
       <h2 style="font-size:1.3rem; margin-bottom:10px; color:#2c3e50; border-left:4px solid #3498db; padding-left:10px;">Experience</h2>
-      <ul style="list-style:none; margin-left:10px;">
+      <ul style="list-style:none; margin-left:-20px;">
         <li><strong>Research Assistant</strong> – Binghamton University (Jan 2022–Present)<br>Computer security & side-channel research. Ran experiments, benchmarks, and analysis.</li>
         <li><strong>Teaching Assistant</strong> – Binghamton University (Jan 2021–May 2023)<br>Taught lab sessions for 40 students, graded, and held office hours for computer architecture.</li>
         <li><strong>Computer Science Tutor</strong> – SUNY Broome (Jan 2017–May 2018)<br>Tutored CS students in lab environment and supported introductory CS topics.</li>
@@ -86,7 +126,10 @@
         <span style="background:#3498db; color:white; padding:6px 10px; border-radius:20px;">perf</span>
         <span style="background:#3498db; color:white; padding:6px 10px; border-radius:20px;">Python</span>
       </div>
+      <p>Arduino, C#, CSS, Git, Haskell, HTML, Java, JavaScript, Prolog, R, Raspberry Pi, Rust, SQL</p>
     </div>
+
+    
 
   </div>
 </body>
